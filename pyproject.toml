@@ -1,0 +1,23 @@
+[project]
+name = "airfoil-finder"
+version = "0.1.0"
+description = "Type an airfoil name, see the airfoil."
+requires-python = ">=3.10"
+dependencies = [
+    "flet>=1.1.2"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli>=1.1.2",
+    "flet-desktop>=1.1.2",
+    "flet-web>=1.1.2",
+]
+
+[tool.flet]
+org = "com.airfoilfinder"
+product = "Airfoil Finder"
+company = "Airfoil Finder"
+# assets/icon.png is the icon on every platform. This colour sits behind it
+# on Android (the adaptive-icon background).
+icon_background = "#0d2a4a"
